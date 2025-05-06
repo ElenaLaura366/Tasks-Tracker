@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <div class="taskname">
+            <label for="taskName">Task Name</label>
+            <input type="text" id="taskName" name="taskName" [(ngModel)]="taskName" class="form-control" required/>
+        </div>
+        <div class="taskdescription">
+            <label for="taskDescription">Description</label>
+            <textarea id="taskDescription" name="taskDescription" [(ngModel)]="taskDescription" class="form-control" rows="4"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+        </div>
+    </div>
+</form>

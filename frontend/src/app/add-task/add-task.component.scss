@@ -1,0 +1,38 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.taskname{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+}
+
+input, textarea{
+    padding: 5px;
+    font-size: 16px;
+}
+
+.taskdescription{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #1976d2;
+    font-weight: 400;
+    border-radius: 0.5rem;
+}
